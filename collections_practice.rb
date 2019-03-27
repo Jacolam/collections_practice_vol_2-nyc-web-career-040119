@@ -102,12 +102,12 @@ def organize_schools(hash)
   hash.each do |school, city|
     #binding.pry
     if org_schools.key?(city[:location])
-      sorg_schools[city[:location]] << school
+      org_schools[city[:location]] << school
     else
       org_schools[city[:location]] = [school]
     end
   end
-  return sorted_schools
+  return org_schools
 end 
 
 
