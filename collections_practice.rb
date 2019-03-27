@@ -97,10 +97,9 @@ end
   #     ]
   # }
 
-def organize_schools(array,y)
+def organize_schools(array)
   sorted_schools = {}
-  array.each do |item|
-   
+  array.each do |item,y|
    binding.pry
     
   end 
