@@ -84,6 +84,8 @@ def find_cool(array)
  cool_cat
 end 
 
+
+
 def organize_schools(array)
   sorted_schools = {}
   array.each do |item|
