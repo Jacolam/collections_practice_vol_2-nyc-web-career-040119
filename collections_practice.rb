@@ -99,7 +99,7 @@ end
 
 def organize_schools(array)
   sorted_schools = {}
-  array.each do |item,y|
+  array.each do |school,location|
    binding.pry
     
   end 
