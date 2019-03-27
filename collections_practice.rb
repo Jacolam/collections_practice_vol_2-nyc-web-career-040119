@@ -101,7 +101,7 @@ def organize_schools(array)
   sorted_schools = {}
   array.each do |school,city|
    binding.pry
-    if sorted_schools.key?()
+    if sorted_schools.key?(city[:location])
   end 
   
 end 
