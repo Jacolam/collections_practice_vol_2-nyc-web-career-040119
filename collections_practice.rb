@@ -84,7 +84,18 @@ def find_cool(array)
  cool_cat
 end 
 
-
+  # {
+  #   "Chicago"=>["dev boot camp chicago"],
+  #   "NYC"=>[
+  #     "flatiron school bk",
+  #     "flatiron school",
+  #     "general assembly"
+  #     ],
+  #   "SF"=>[
+  #     "dev boot camp",
+  #     "Hack Reactor"
+  #     ]
+  # }
 
 def organize_schools(array)
   sorted_schools = {}
