@@ -100,7 +100,8 @@ end
 def organize_schools(array,y)
   sorted_schools = {}
   array.each do |item|
-   #binding.pry
+   
+   binding.pry
     
   end 
   
