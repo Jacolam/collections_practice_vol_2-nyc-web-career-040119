@@ -108,8 +108,5 @@ def organize_schools(hash)
   end
   return sorted_schools
 end 
-end 
-  
-end 
 
 
