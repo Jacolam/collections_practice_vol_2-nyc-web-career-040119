@@ -99,7 +99,7 @@ end
 
 def organize_schools(array)
   sorted_schools = {}
-  array.each do |school,location|
+  array.each do |school,city|
    binding.pry
     if sorted_schools.key?()
   end 
