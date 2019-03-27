@@ -106,7 +106,7 @@ def organize_schools(array)
   else 
     sorted_schools[city[:location]] = school
     end 
-    
+    sorted_schools
   end 
   
 end 
