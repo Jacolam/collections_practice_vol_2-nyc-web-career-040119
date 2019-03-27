@@ -102,7 +102,8 @@ def organize_schools(array)
   array.each do |school,city|
    binding.pry
     if sorted_schools.key?(city[:location])
-    sorted_schools[city[:location]] <<
+    sorted_schools[city[:location]] << school
+  else 
     end 
     
   end 
