@@ -88,7 +88,7 @@ def organize_schools(array)
   sorted_schools = {}
   array.each do |item|
     binding.pry
-    if 
+    
   end 
   
 end 
