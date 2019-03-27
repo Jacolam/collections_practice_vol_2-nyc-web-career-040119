@@ -97,17 +97,17 @@ end
   #     ]
   # }
 
-def organize_schools(array)
-  sorted_schools = {}
-  array.each do |school,city|
-   #binding.pry
-    if sorted_schools.key?(city[:location])
-    sorted_schools[city[:location]] << school
-  else 
-    sorted_schools[city[:location]] = school
-    end 
-    sorted_schools
-  end 
+def organize_schools(hash)
+  output = {}
+  hash.each do |school, city|
+    if output.key?(city[:location])
+      output[city[:location]].push(school)
+    else
+      output[city[:location]] = [school]
+    end
+  end
+  return output
+end 
   
 end 
 
