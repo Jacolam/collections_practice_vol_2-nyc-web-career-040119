@@ -100,6 +100,7 @@ end
 def organize_schools(hash)
   sorted_schools = {}
   hash.each do |school, city|
+    binding.pry
     if sorted_schools.key?(city[:location])
       sorted_schools[city[:location]] << school
     else
