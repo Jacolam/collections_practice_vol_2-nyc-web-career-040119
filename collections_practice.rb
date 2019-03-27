@@ -101,7 +101,7 @@ def organize_schools(array)
   sorted_schools = {}
   array.each do |school,location|
    binding.pry
-    
+    if sorted_schools
   end 
   
 end 
