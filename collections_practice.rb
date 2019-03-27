@@ -84,19 +84,6 @@ def find_cool(array)
  cool_cat
 end 
 
-  # {
-  #   "Chicago"=>["dev boot camp chicago"],
-  #   "NYC"=>[
-  #     "flatiron school bk",
-  #     "flatiron school",
-  #     "general assembly"
-  #     ],
-  #   "SF"=>[
-  #     "dev boot camp",
-  #     "Hack Reactor"
-  #     ]
-  # }
-
 def organize_schools(hash)
   org_schools = {}
   hash.each do |school, city|
@@ -107,7 +94,7 @@ def organize_schools(hash)
       org_schools[city[:location]] = [school]
     end
   end
-  return org_schools
+ org_schools
 end 
 
 
